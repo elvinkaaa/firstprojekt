@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".components.ButtonsActivity">
+<TextView
+    android:id="@+id/textview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginStart="20dp"
+    android:text="Какой-то текст"
+    android:textSize="26dp" />
+
+<RelativeLayout
+    android:id="@+id/relativeLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/textview"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="50dp">
+
+<CheckBox
+    android:id="@+id/color"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:buttonTint="@color/primary_color"
+    android:textSize="20sp" />
+
+<CheckBox
+    android:id="@+id/bold"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10sp"
+    android:layout_toEndOf="@+id/color"
+    android:buttonTint="@color/primary_color"
+    android:text="Жирный"
+    android:textSize="20sp" />
+
+ <Switch
+     android:id="@+id/vieble"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_centerVertical="true"
+     android:layout_marginStart="10dp"
+     android:checked="true"
+     android:text="Видимость"
+     android:textSize="20sp"
+     tools:ignore="UseSwitchCompatOrMaterialXal"/>
+
+<View
+    android:id="@+id/view"
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:layout_below="@id/relativeLayout"
+    android:layout_marginVertical="20dp"
+    android:background="@color/primary_color" />
+
+ <RadioButton
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_weight="1"
+     android:buttonTint="@color/primary_color"
+     android:text="Какой-то текст"
+     android:textSize="20sp" />
+ <RadioButton
+     android:id="@+id/radioGroup"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_weight="1"
+     android:buttonTint="@color/primary_color"
+     android:text="Другой текст"
+     android:textSize="20sp" />
+
+</RelativeLayout xmls:android="http://schemas.andriod.comy
+  <RadioGroup
+    <RadioButton
+         android:textSize="20sp" />
+ </RadioGroup>
+   <com.google.android.material.floatingactionbutton.Floating
+   android:id="@+id/floating"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+
+</RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

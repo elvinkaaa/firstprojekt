@@ -1,0 +1,9 @@
+<resources>
+
+    <style name="Base.Theme.Proekt" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="android:statusBarColor">@color/primary_color</item>
+    </style>
+
+    <style name="Theme.Proekt" parent="Base.Theme.Proekt" />
+</resources>
